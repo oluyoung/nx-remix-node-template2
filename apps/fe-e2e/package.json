@@ -1,0 +1,10 @@
+{
+  "name": "@first-nx-remix-stack/fe-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@first-nx-remix-stack/fe"
+    ]
+  }
+}
