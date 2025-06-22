@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:prod": "npx nx affected -t build"
+    "build:prod": "npx nx affected -t build",
+    "start": "npx nx run-many --targets=start -p be fe",
+    "dev": "npx nx run-many --targets=serve,dev -p be fe"
   },
   "private": true,
   "dependencies": {
