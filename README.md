@@ -80,3 +80,8 @@ And join the Nx community:
 - [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+
+## Husky prod build hack
+1. initialise husky by `npx husky init`.
+2. In husky/pre_commit enter `npm run build:prod" to run affected builds after every commit.
